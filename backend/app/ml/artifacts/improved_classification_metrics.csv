@@ -1,0 +1,7 @@
+Split,Model,Label Source,Accuracy,Precision,Recall,F1,Actual Anomalies,Predicted Anomalies,Total Records
+train,Isolation Forest,column:is_anomaly,0.9856428571428572,0.9880832735104091,0.9831428571428571,0.9856068743286789,7000,6965,14000
+train,Autoencoder,column:is_anomaly,0.9722142857142857,0.9722817545363623,0.9721428571428572,0.9722123008786342,7000,6999,14000
+val,Isolation Forest,column:is_anomaly,0.981,0.981,0.981,0.981,1000,1000,2000
+val,Autoencoder,column:is_anomaly,0.968,0.968,0.968,0.968,1000,1000,2000
+test,Isolation Forest,column:is_anomaly,0.98525,0.9879336349924586,0.9825,0.9852093256455252,2000,1989,4000
+test,Autoencoder,column:is_anomaly,0.971,0.971,0.971,0.971,2000,2000,4000

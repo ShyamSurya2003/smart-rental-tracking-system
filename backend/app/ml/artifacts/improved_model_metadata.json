@@ -1,0 +1,28 @@
+{
+  "model": "RandomForestClassifier",
+  "label_strategy": "domain_pseudo_labels",
+  "raw_columns": [
+    "Equipment ID",
+    "Type",
+    "Site ID",
+    "Check-In Date",
+    "Check-Out Date",
+    "Engine Hours/Day",
+    "Idle Hours/Day",
+    "Rental Days",
+    "Last Operator ID"
+  ],
+  "numeric_columns": [
+    "Engine Hours/Day",
+    "Idle Hours/Day",
+    "Rental Days",
+    "Idle Ratio",
+    "Utilisation %",
+    "Site Missing",
+    "Operator Missing"
+  ],
+  "categorical_columns": [
+    "Type"
+  ],
+  "score_threshold": 0.5
+}

@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "install:all": "npm install --prefix frontend && pip install -r backend/requirements.txt"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}
